@@ -1,10 +1,5 @@
 ﻿using ConsoleApp6.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp6.Data
 {
@@ -57,6 +52,6 @@ namespace ConsoleApp6.Data
 
                 base.OnModelCreating(modelBuilder);
             }
-     }
+    }
  }
 
